@@ -29,8 +29,8 @@ const DepartmentList = () => {
             <h1>Department List</h1>
             <ul>
                 {departments.map(department => (
-                    <li key={department.departmentId}>
-                        Department ID: {department.departmentId} - Name: {department.name}
+                    <li key={department.id}>
+                        Department ID: {department.id} - Name: {department.name} - Location: {department.location}
                     </li>
                 ))}
             </ul>

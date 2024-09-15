@@ -29,8 +29,8 @@ const SalaryList = () => {
             <h1>Salary List</h1>
             <ul>
                 {salaries.map(salary => (
-                    <li key={salary.salaryId}>
-                        Employee ID: {salary.employee.employeeId} - Base Salary: {salary.baseSalary} - Pay Period: {salary.payPeriod}
+                    <li key={salary.id}>
+                        Employee ID: {salary.employee.id} - Base Salary: {salary.baseSalary} - Pay Period: {salary.payPeriod}
                     </li>
                 ))}
             </ul>
